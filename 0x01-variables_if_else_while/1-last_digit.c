@@ -5,9 +5,10 @@
 #include <stdio.h>
 
 /**
-*Main function prints random numbers and check the las digit
+*main - function prints random numbers and check the las digit
 *wether is great than 5 or is 0
 *less than 6 and not 0
+*Return: Always 0
 */
 int main(void)
 
