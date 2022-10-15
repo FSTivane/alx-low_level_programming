@@ -1,30 +1,12 @@
-uth: Brennan D Baraban
-
- */
-
-
-
 #include <stdlib.h>
 
 #include <time.h>
 
 #include <stdio.h>
 
+/* betty style doc for function main goes there */
 
-
- /**
-  *
-  *  * main - Prints a random number and states whether
-  *
-  *   *        it is positive, negative, or zero.
-  *
-  *    *
-  *
-  *     * Return: Always 0.
-  *
-  *     */
-
- int main(void)
+int main(void)
 
 {
 
@@ -35,8 +17,6 @@ uth: Brennan D Baraban
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-
-
 
 					if (n > 0)
 
@@ -50,8 +30,6 @@ uth: Brennan D Baraban
 
 										printf("%d is zero\n", n);
 
-
-
-								return (0);
+					return (0);
 
 }
