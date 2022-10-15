@@ -10,7 +10,7 @@ int main(void)
 	char l, k;
 
 	for (l = 'a'; l <= 'z'; l++)
-	{	
+	{
 		putchar(l);
 	}
 
@@ -20,7 +20,7 @@ int main(void)
 	}
 
 	putchar('\n');
-	
+
 	return (0);
 }
 
