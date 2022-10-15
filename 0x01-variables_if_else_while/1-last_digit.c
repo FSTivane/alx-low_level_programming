@@ -6,8 +6,8 @@
 
 
 
-/* 
- *Prints random numbers and check the las digit
+/*
+ * Main function prints random numbers and check the las digit
  *   wether is great than 5 or is 0
  *   less than 6 and not 0
 */
@@ -25,17 +25,17 @@ int main(void)
 
 	printf("Last digit of %d is %d ",
 		       n, lastdigit);
-	
-	
+
+
 	if (lastdigit > 5)
 	{
 		printf("and is greater than 5\n");
 	}
-	else if(lastdigit == 0)
+	else if (lastdigit == 0)
 	{
 		printf("and is 0\n");
 	}
-	else 
+	else
 	{
 		printf("and is less than 6 and not 0\n");
 	}
