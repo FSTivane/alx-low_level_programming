@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints alphabet in lowercase
  *
- * Author: Francisco Tivane 
+ * Author: Francisco Tivane
 */
 
 void print_alphabet(void)
