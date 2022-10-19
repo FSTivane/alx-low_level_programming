@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet in lowercase
  *
- * Return: 
+ *  
 */
 
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 
 		_putchar('\n');
 
-	return (0);
+	
 }
 
