@@ -6,10 +6,9 @@
  * Author: Francisco Tivane
 */
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(char l)
 {
 	int i = 0;
-	char l;
 
 	for (i = 0; i <= 9; i++)
 	{
