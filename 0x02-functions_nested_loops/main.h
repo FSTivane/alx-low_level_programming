@@ -5,6 +5,6 @@
 
 int _putchar(char l);
 void print_alphabet(char l);
-void print_alphabet_x10(void);
+void print_alphabet_x10(char l);
 
 #endif /* _MAIN_H_ */
