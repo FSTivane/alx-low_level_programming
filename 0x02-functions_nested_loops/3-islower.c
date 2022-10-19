@@ -3,7 +3,9 @@
 /**
  * _islower - check if letter isa lowercase
  *
- * Return 1 if is true and 0 if else
+ *@c: is the letter to be checked
+ * 
+ *Return 1 if c is true and 0 if else
 */
 
 int _islower(int c)
