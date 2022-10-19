@@ -6,7 +6,7 @@
  *  
 */
 
-int main(void)
+void main(void)
 {
 	char l;
 
@@ -17,6 +17,5 @@ int main(void)
 
 		_putchar('\n');
 
-	
 }
 
