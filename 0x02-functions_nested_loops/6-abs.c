@@ -3,19 +3,18 @@
 /**
  * _abs - print a absolute value of integer
  *
- * @c: is the argument
+ * @n: is the argument
  * Return: 0
 */
 
-int _abs(int c)
+int _abs(int n)
 {
-	if (c > 0 || c == 0)
+	if (n >= 0)
 	{
-		return (c);
+		return (n);
 	}
-
 	else
 
-	return (c * -1);
+	return (n * -1);
 
 }
