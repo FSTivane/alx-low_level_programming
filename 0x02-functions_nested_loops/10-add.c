@@ -2,7 +2,8 @@
 
 /**
  * add - two numbers
- *
+ *@x: argumrnt
+ *@y: argumrnt
  * Return: result
 */
 
@@ -14,5 +15,3 @@ int add(int x, int y)
 
 	return (result);
 }
-
-	

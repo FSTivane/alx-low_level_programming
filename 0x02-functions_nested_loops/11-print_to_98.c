@@ -1,7 +1,8 @@
-#included "main.h"
+#include "main.h"
 
 /**
- * main - prints number from 0 to 98
+ * print_to_98 - prints number from 0 to 98
+ * @n: argument starting from
  *
 */
 
@@ -9,7 +10,7 @@ void print_to_98(int n)
 {
 	for (n = 7; n < 99; n++)
 	{
-		_putchar(n + '0');
+		_putchar(n);
 
 		if (n != 98)
 		{
