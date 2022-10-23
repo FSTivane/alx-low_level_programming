@@ -8,14 +8,32 @@
 
 void print_to_98(int n)
 {
-	for (n = 7; n < 99; n++)
-	{
-		_putchar(n);
 
-		if (n != 98)
+	if (n < 98)
+	{
+		for (n = n; n < 99; n++)
 		{
-			_putchar(',');
-			_putchar(' ');
+			_putchar(n);
+
+			if (n != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+
+	}
+	else
+	{
+		for (n = n; n > 97;  n--)
+		{
+			_putchar(n);
+
+			if (n != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
 
