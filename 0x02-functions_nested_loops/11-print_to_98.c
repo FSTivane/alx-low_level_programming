@@ -1,0 +1,22 @@
+#included "main.h"
+
+/**
+ * main - prints number from 0 to 98
+ *
+*/
+
+void print_to_98(int n)
+{
+	for (n = 7; n < 99; n++)
+	{
+		_putchar(n + '0');
+
+		if (n != 98)
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
+	}
+
+	_putchar('\n');
+}
