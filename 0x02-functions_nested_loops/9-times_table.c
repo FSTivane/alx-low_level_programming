@@ -2,7 +2,7 @@
 
 /**
  * times_table - prints 9 times tables from 0
- * 
+ *
  * Return
 */
 
