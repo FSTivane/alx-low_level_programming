@@ -1,2 +1,2 @@
 #!/bin/bash
-./ -E "$CFILE" -o output.o
+gcc -c "$CFILE" -o output.o
