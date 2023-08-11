@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main: print usins puts
- * return: 0
-*/
+ * main - prints string usins puts
+ *
+ * Return: 0
+ */
 
 	int main(void)
 	{
