@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main : show tipes of a file
- * return: noreturn
-*/ 
+ * main: print usins puts
+ * return: 0
+*/
 
 	int main(void)
 	{
