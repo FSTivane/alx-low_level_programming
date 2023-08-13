@@ -17,7 +17,7 @@ int main(void)
 	if(n>0){
 		printf("%u is positive", n);
 	}else{
-		if(n=0){
+		if(n==0){
 			printf("%u is negative", n);
 		}else{
 			printf("%u is negative", n);
