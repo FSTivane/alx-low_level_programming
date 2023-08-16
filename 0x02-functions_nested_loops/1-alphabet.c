@@ -10,11 +10,15 @@ int main(void)
 {
 	char i;
 
-	for (i = 'a'; i <= 'Z'; i++)
+	void print_alphabet
 	{
-		_putchar('i');
-	}
-		_putchar('\n');
+		for (i = 'a'; i <= 'Z'; i++)
+		{
+			_putchar('i');
+		}
+			_putchar('\n');
 
 		return (0);
+
+	}
 }
