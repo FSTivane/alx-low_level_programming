@@ -9,8 +9,7 @@
 int main(void)
 {
 
-	print_alphabet(void)
-	{
+	print_alphabet(){
 		char i;
 		
 		for (i = 'a'; i <= 'Z'; i++)
