@@ -8,17 +8,18 @@
 
 int main(void)
 {
-	char i;
 
 	print_alphabet()
 	{
+		char i;
+		
 		for (i = 'a'; i <= 'Z'; i++)
 		{
 			_putchar('i');
 		}
 			_putchar('\n');
 
+	}
 		return (0);
 
-	}
 }
