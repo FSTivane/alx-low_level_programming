@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers of base 10
+ * main - prints alphabet in reverse
  *
  * Return: o
  */
 
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 'z'; i >= 'a'; i--)
 	{
-		putchar('0' + i % 10);
+		putchar(i);
 	}
 		putchar('\n');
-
 
 	return (0);
 }
