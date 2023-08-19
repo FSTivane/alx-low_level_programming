@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (i > 9)
 		{
-			putchar('a' + i % 10) ;
+			putchar('a' + i % 10);
 		}
 		else
 		{
