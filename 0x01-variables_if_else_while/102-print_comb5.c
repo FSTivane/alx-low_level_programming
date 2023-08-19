@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int i, j;
 
@@ -14,15 +14,12 @@ int main()
 	{
 		int first_digit_i = i / 10;
 		int second_digit_i = i % 10;
-		
+	
 		for (j = i + 1; j < 100; j++)
 		{
 			int first_digit_j = j / 10;
 			int second_digit_j = j % 10;
 
-			if ((first_digit_i != first_digit_j || second_digit_i != second_digit_j) &&
-                	(first_digit_i != second_digit_j && second_digit_i != first_digit_j))
-				{
 				putchar('0' + first_digit_i);
 				putchar('0' + second_digit_i);
 				putchar(' ');
@@ -34,7 +31,6 @@ int main()
 					putchar(',');
 					putchar(' ');
 				}
-			}
 		}
 	}
 
