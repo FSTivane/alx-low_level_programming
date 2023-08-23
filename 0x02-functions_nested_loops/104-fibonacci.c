@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 /**
  * main - print the first 98 fibonacci numbers.
  * Return: 0
@@ -45,4 +45,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
