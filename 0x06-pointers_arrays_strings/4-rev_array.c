@@ -3,7 +3,7 @@
 /**
  * reverse_array - reveses the conten in an array
  * @a: parameter
- * @b: parameter
+ * @n: parameter
  */
 
 void reverse_array(int *a, int n)
