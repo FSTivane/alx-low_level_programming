@@ -3,14 +3,24 @@
 
 #include <stddef.h>
 
-/* Define the structure for a node in the linked list */
-typedef struct list_s {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+/**
+ * struct list_s - sngly linked list
+ * @str: string
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for this project
+ */
+
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
-/* Function prototype for printing the list and returning the number of nodes */
-size_t print_list(const list_t *h);
+	char _putchar(char c);
+	size_t print_list(const list_t *h);
 
 #endif
