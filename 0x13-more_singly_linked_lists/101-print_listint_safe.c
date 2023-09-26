@@ -25,7 +25,7 @@ size_t print_listint_safe(const listint_t *head)
 
 		if (temp <= current)
 		{
-			printf(stderr, "Error: loop detected in the list\n");
+			fprintf(stderr, "Error: loop detected in the list\n");
 				exit(98);
 		}
 	}
