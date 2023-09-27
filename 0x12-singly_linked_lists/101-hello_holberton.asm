@@ -1,15 +1,11 @@
-section .data
-    hello db "Hello, Holberton",10,0  ; Null-terminated string with newline
-
-section .text
     global main
 
 extern printf
 
 main:
-    push rbp
-    mov rdi, hello   ; Format string
-    call printf
-    pop rbp
-    ret
-
+	mov rdi, format 
+	xor eax, eax
+	call printf
+	mov eax, 0
+	ret
+	format: db `Hello, Holberton\n`,0
