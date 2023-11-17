@@ -28,7 +28,7 @@ int _strlen(const char *s)
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
-        char *duplicate_str;
+	char *duplicate_str;
 
 	if (str == NULL)
 	{
